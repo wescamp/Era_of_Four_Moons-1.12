@@ -6,10 +6,10 @@ msgstr ""
 "PO-Revision-Date: 2013-11-30 19:09+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [era]: id=era_EFM_a1, description=The Era of Four Moons is designed to be a balanced alternative to default for players who've gotten tired of the six default factions. Has four factions. Based on a setting designed by L. Shellby. Looking for skilled playtesters. Post replays of standard multiplayer matches on the forum.
