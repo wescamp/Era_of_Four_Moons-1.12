@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Four_Moons-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 19:09+0100\n"
+"POT-Creation-Date: 2014-03-03 21:33+0100\n"
 "PO-Revision-Date: 2013-11-30 19:09+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "Era of Four Moons"
 msgstr ""
 
-#. [era]: id=era_EFM_a1_Extended, description=The extended version of Era of Four Moons has eight factions instead. The extra factions are not complete o extensively tested tested.
+#. [era]: id=era_EFM_a1_Extended, description=The extended version of Era of Four Moons has eight factions instead. The extra factions are not complete or extensively tested
 #: Era_of_Four_Moons/EFM_eras.cfg:17
 msgid "Era of Four Moons Extended"
 msgstr ""
@@ -182,144 +182,89 @@ msgstr ""
 msgid "Allies adjacent to a unit with this ability add 20% to all resistances."
 msgstr ""
 
-#. [damage]: id=special_efm_dauntless
+#. [attacks]: id=EFM_wateronly
 #: Era_of_Four_Moons/macros/abilities.cfg:80
-#: Era_of_Four_Moons/macros/abilities.cfg:82
+msgid "water only"
+msgstr ""
+
+#. [attacks]: id=EFM_wateronly
+#: Era_of_Four_Moons/macros/abilities.cfg:81
+msgid ""
+"Water Only: Some attacks by naval units are useless against enemies on land, "
+"as the projectile or the vessel itself would become grounded."
+msgstr ""
+
+#. [damage]: id=special_efm_dauntless
+#: Era_of_Four_Moons/macros/abilities.cfg:118
+#: Era_of_Four_Moons/macros/abilities.cfg:120
 msgid "dauntless"
 msgstr ""
 
 #. [damage]: id=special_efm_dauntless
-#: Era_of_Four_Moons/macros/abilities.cfg:81
-#: Era_of_Four_Moons/macros/abilities.cfg:83
+#: Era_of_Four_Moons/macros/abilities.cfg:119
+#: Era_of_Four_Moons/macros/abilities.cfg:121
 msgid ""
 "This units fearless ferocity makes it difficult to retaliate against "
 "effective. Takes 25% less retaliation when on offense."
 msgstr ""
 
 #. [regenerate]: id=selfheal
-#: Era_of_Four_Moons/macros/abilities.cfg:94
+#: Era_of_Four_Moons/macros/abilities.cfg:132
 msgid "self-heal"
 msgstr ""
 
 #. [regenerate]: id=selfheal
-#: Era_of_Four_Moons/macros/abilities.cfg:95
+#: Era_of_Four_Moons/macros/abilities.cfg:133
 msgid ""
 "The unit will slow the effects of poison on itself or regenerate four "
 "hitpoints per turn."
 msgstr ""
 
-#. [attacks]: id=weapon_special_trample
-#: Era_of_Four_Moons/macros/abilities.cfg:104
+#. [attacks]: id=efm_weapon_special_trample
+#: Era_of_Four_Moons/macros/abilities.cfg:142
 msgid "Trample"
 msgstr ""
 
-#. [attacks]: id=weapon_special_trample
-#: Era_of_Four_Moons/macros/abilities.cfg:105
+#. [attacks]: id=efm_weapon_special_trample
+#: Era_of_Four_Moons/macros/abilities.cfg:143
+msgid "On offense units with trample will gain two extra strikes."
+msgstr ""
+
+#. [dummy]: id=efm_weapon_special_overrun
+#: Era_of_Four_Moons/macros/abilities.cfg:150
+msgid "Overrun"
+msgstr ""
+
+#. [dummy]: id=efm_weapon_special_overrun
+#: Era_of_Four_Moons/macros/abilities.cfg:151
 msgid ""
-"On offense units with trample will gain two extra strikes and if they kill "
-"they will move into the hex of the unit they killed."
+"On offense units with trample who kills his opponent will move into the hex "
+"his opponent was in."
 msgstr ""
 
 #. [unit_type]: id=EFM_Sapper, race=EFMimperialists
-#: Era_of_Four_Moons/macros/abilities.cfg:197
-#: Era_of_Four_Moons/macros/abilities.cfg:198
+#: Era_of_Four_Moons/macros/abilities.cfg:241
+#: Era_of_Four_Moons/macros/abilities.cfg:242
 #: Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
 msgid "Sapper"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:200
-#: Era_of_Four_Moons/macros/abilities.cfg:201
+#: Era_of_Four_Moons/macros/abilities.cfg:244
+#: Era_of_Four_Moons/macros/abilities.cfg:245
 msgid ""
 "This attack has 1 strike per 10% defense it's target has it also has a 70% "
 "chance to hit. The sapper dies when it uses this attack."
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:210
-msgid "heal+3"
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:211
-msgid ""
-"This unit will heal allies by 3 hp at the start of it's turn. Will slow "
-"poison."
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:229
-#: Era_of_Four_Moons/macros/abilities.cfg:232
-msgid "foresthome"
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:230
-#: Era_of_Four_Moons/macros/abilities.cfg:233
-msgid ""
-"Foresthome:\n"
-"This unit will regenerate 3 hp when in forest."
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:248
-#: Era_of_Four_Moons/macros/abilities.cfg:251
-msgid "waterhome"
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:249
-#: Era_of_Four_Moons/macros/abilities.cfg:252
-msgid ""
-"Waterhome:\n"
-"This unit will regenerate 3 hp when in deep or shallow water."
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:267
-#: Era_of_Four_Moons/macros/abilities.cfg:270
-msgid "deserthome"
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:268
-#: Era_of_Four_Moons/macros/abilities.cfg:271
-msgid ""
-"Deserthome:\n"
-"This unit will regenerate 3 hp when in desert or sand."
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:286
-#: Era_of_Four_Moons/macros/abilities.cfg:289
-msgid "mountainhome"
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:287
-msgid ""
-"Mountainhome:\n"
-"This unit will regenerate 3 hp when on mountains."
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:290
-msgid ""
-"Mountainhome:\n"
-"This unit will regenerate 3 hp when in mountains."
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:301
-msgid "inspire"
-msgstr ""
-
-#: Era_of_Four_Moons/macros/abilities.cfg:302
-msgid ""
-"Inspire:\n"
-"This unit can inspire friendly units that are next to it, making them fight "
-"better.\n"
-"\n"
-"Adjacent friendly level 1 units will do 10% more damage in battle. Does not "
-"work on Celestial messengers."
-msgstr ""
-
 #. [dummy]: id=ability_shifter
-#: Era_of_Four_Moons/macros/abilities.cfg:422
-#: Era_of_Four_Moons/macros/abilities.cfg:423
+#: Era_of_Four_Moons/macros/abilities.cfg:340
+#: Era_of_Four_Moons/macros/abilities.cfg:341
 #: Era_of_Four_Moons/macros/shifter.cfg:6
 #: Era_of_Four_Moons/macros/shifter.cfg:7
 msgid "shifter"
 msgstr ""
 
-#: Era_of_Four_Moons/macros/abilities.cfg:424
+#: Era_of_Four_Moons/macros/abilities.cfg:342
 msgid ""
 "This unit changes form based on what terrain he is standing on.\n"
 "Villages/Castles: Human\n"
@@ -383,9 +328,9 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:29
-#: Era_of_Four_Moons/units/Dalefolk/a2_Delver.cfg:31
-#: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:34
+#: Era_of_Four_Moons/units/Dalefolk/a1_Miner.cfg:30
+#: Era_of_Four_Moons/units/Dalefolk/a2_Delver.cfg:34
+#: Era_of_Four_Moons/units/Dalefolk/a2_Foreman.cfg:35
 msgid "pick"
 msgstr ""
 
@@ -434,7 +379,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Dalefolk/b2_Mountaineer.cfg:31
 #: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:26
 #: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:26
-#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:26
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:27
 #: Era_of_Four_Moons/units/Imperialists/b1_Slinger.cfg:32
 #: Era_of_Four_Moons/units/Imperialists/b2_Flinger.cfg:33
 #: Era_of_Four_Moons/units/Imperialists/b2_Spiker.cfg:33
@@ -1165,9 +1110,9 @@ msgstr ""
 #: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:45
 #: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:27
 #: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:32
-#: Era_of_Four_Moons/units/Freemen/e2_Dervish.cfg:29
+#: Era_of_Four_Moons/units/Freemen/e2_Dervish.cfg:36
 #: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:32
-#: Era_of_Four_Moons/units/Freemen/e3_Immortal.cfg:30
+#: Era_of_Four_Moons/units/Freemen/e3_Immortal.cfg:37
 #: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:33
 msgid "scimitar"
 msgstr ""
@@ -1240,7 +1185,7 @@ msgstr ""
 
 #. [unit_type]: id=EFM_SandWalker, race=EFMfreeman
 #: Era_of_Four_Moons/units/Freemen/b1_Sandwalker.cfg:5
-msgid "Sand walker"
+msgid "Sand Walker"
 msgstr ""
 
 #. [unit_type]: id=EFM_SandWalker, race=EFMfreeman
@@ -1445,9 +1390,9 @@ msgstr ""
 
 #. [attack]: type=blade
 #: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:41
-#: Era_of_Four_Moons/units/Freemen/e2_Dervish.cfg:38
+#: Era_of_Four_Moons/units/Freemen/e2_Dervish.cfg:45
 #: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:41
-#: Era_of_Four_Moons/units/Freemen/e3_Immortal.cfg:39
+#: Era_of_Four_Moons/units/Freemen/e3_Immortal.cfg:46
 #: Era_of_Four_Moons/units/Freemen/e3_Sheik.cfg:42
 msgid "chakram"
 msgstr ""
@@ -1523,7 +1468,7 @@ msgstr ""
 #. [attack]: type=impact
 #: Era_of_Four_Moons/units/Freemen/g1_Chanter.cfg:35
 #: Era_of_Four_Moons/units/Freemen/g2_Howler.cfg:35
-#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:35
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:36
 msgid "scream"
 msgstr ""
 
@@ -1545,7 +1490,7 @@ msgid "Screecher"
 msgstr ""
 
 #. [unit_type]: id=EFM_Screecher, race=EFMfreeman
-#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:18
+#: Era_of_Four_Moons/units/Freemen/g3_Screecher.cfg:19
 msgid ""
 "The most terrible of chanters can use not just the volume and power of their "
 "voice as a weapon but the resonance as well. A voice held at the perfect "
@@ -1615,8 +1560,8 @@ msgstr ""
 #: Era_of_Four_Moons/units/Highlanders/b1_Hunter.cfg:41
 #: Era_of_Four_Moons/units/Highlanders/b2_Prowler.cfg:41
 #: Era_of_Four_Moons/units/Highlanders/b3_ManHunter.cfg:42
-#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:49
-#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:50
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:48
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:49
 #: Era_of_Four_Moons/units/Highlanders/g1_Hippo.cfg:42
 #: Era_of_Four_Moons/units/Highlanders/g2_Hippopotamus.cfg:43
 #: Era_of_Four_Moons/units/Whites/a2_Bard.cfg:38
@@ -1726,8 +1671,8 @@ msgid ""
 "The runners of the highlands are renown for their ability to run down "
 "horses. Untrained horses when they sense danger will run as fast as they can "
 "to get away. Although the runner cannot match that speed he will give chase "
-"knowing that he can run for longer. Though the chase may last for quite "
-"awhile the runner will surely win in the end."
+"knowing that he can run for longer. Though the chase may last for a long "
+"time the runner will surely win in the end."
 msgstr ""
 
 #. [unit_type]: id=EFM_Strider, race=EFMhighlanders
@@ -1822,7 +1767,7 @@ msgid "Elephant"
 msgstr ""
 
 #. [unit_type]: id=EFM_Elephant, race=EFMhighlanders
-#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:20
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:19
 msgid ""
 "The most famous tool of the highlander war effort is undoubtably the "
 "elephant. These massive beasts have incredible power and toughness and are "
@@ -1837,8 +1782,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:37
-#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:38
+#: Era_of_Four_Moons/units/Highlanders/f1_Elephant.cfg:36
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:37
 msgid "crush"
 msgstr ""
 
@@ -1848,7 +1793,7 @@ msgid "Oliephant"
 msgstr ""
 
 #. [unit_type]: id=EFM_Oliephant, race=EFMhighlanders
-#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:21
+#: Era_of_Four_Moons/units/Highlanders/f2_Oliephant.cfg:20
 msgid ""
 "Once an elephant and it's rider have both figured out how to use the "
 "elephants massive bulk to their advantage, few things can stand in their way."
