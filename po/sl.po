@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Four_Moons-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 21:33+0100\n"
+"POT-Creation-Date: 2014-04-11 15:04+0200\n"
 "PO-Revision-Date: 2013-11-30 19:09+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -13,23 +13,23 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 
-#. [era]: id=era_EFM_a1, description=The Era of Four Moons is designed to be a balanced alternative to default for players who've gotten tired of the six default factions. Has four factions. Based on a setting designed by L. Shellby. Looking for skilled playtesters. Post replays of standard multiplayer matches on the forum.
+#. [era]: id=era_EFM_a1
 #: Era_of_Four_Moons/EFM_eras.cfg:5
 msgid "Era of Four Moons"
 msgstr ""
 
 #. [era]: id=era_EFM_a1_Extended, description=The extended version of Era of Four Moons has eight factions instead. The extra factions are not complete or extensively tested
-#: Era_of_Four_Moons/EFM_eras.cfg:17
+#: Era_of_Four_Moons/EFM_eras.cfg:18
 msgid "Era of Four Moons Extended"
 msgstr ""
 
 #. [era]: id=era_CFM_a1, description=This version of Era of Four Moons has all eight factions but with level 3 leaders and the ability to recruit more advanced units.
-#: Era_of_Four_Moons/EFM_eras.cfg:34
+#: Era_of_Four_Moons/EFM_eras.cfg:35
 msgid "Champions of Four Moons"
 msgstr ""
 
 #. [era]: id=era_EFM_D_a1, description=Allows you to play with all of the Era of Four Moon factions in addition to the default ones.
-#: Era_of_Four_Moons/EFM_eras.cfg:51
+#: Era_of_Four_Moons/EFM_eras.cfg:52
 msgid "EoFM + default"
 msgstr ""
 
@@ -255,7 +255,8 @@ msgstr ""
 #: Era_of_Four_Moons/macros/abilities.cfg:245
 msgid ""
 "This attack has 1 strike per 10% defense it's target has it also has a 70% "
-"chance to hit. The sapper dies when it uses this attack."
+"chance to hit. The sapper dies when it uses this attack. Sapper damage "
+"cannot be boosted by leadership."
 msgstr ""
 
 #. [dummy]: id=ability_shifter
@@ -1110,7 +1111,7 @@ msgstr ""
 #: Era_of_Four_Moons/units/Freemen/c2_Mehariste.cfg:26
 #: Era_of_Four_Moons/units/Freemen/c2_SandRider.cfg:45
 #: Era_of_Four_Moons/units/Freemen/c3_Adventurer.cfg:45
-#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:27
+#: Era_of_Four_Moons/units/Freemen/c3_Zamburak.cfg:27
 #: Era_of_Four_Moons/units/Freemen/e1_Wanderer.cfg:32
 #: Era_of_Four_Moons/units/Freemen/e2_Dervish.cfg:36
 #: Era_of_Four_Moons/units/Freemen/e2_Nomad.cfg:32
@@ -1296,23 +1297,23 @@ msgid ""
 "freemen know them to be true."
 msgstr ""
 
-#. [unit_type]: id=EFM_Zunbooruch, race=EFMfreeman
-#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:5
-msgid "Zunbooruch"
+#. [unit_type]: id=EFM_Zamburak, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Zamburak.cfg:5
+msgid "Zamburak"
 msgstr ""
 
-#. [unit_type]: id=EFM_Zunbooruch, race=EFMfreeman
-#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:19
+#. [unit_type]: id=EFM_Zamburak, race=EFMfreeman
+#: Era_of_Four_Moons/units/Freemen/c3_Zamburak.cfg:19
 msgid ""
-"Zunbooruch was a mehariste officer who famously sniped the enemies sultan "
-"from his camel mount at a range of a hundred yards with a crossbow after "
-"calling the shot. Since then whenever a successful mehariste has saved up "
-"enough for a crossbow (very expensive purchase in the freelands) people will "
-"call them after said officer."
+"Zamburak was a mehariste officer who famously sniped the enemies sultan from "
+"his camel mount at a range of a hundred yards with a crossbow after calling "
+"the shot. Since then whenever a successful mehariste has saved up enough for "
+"a crossbow (very expensive purchase in the freelands) people will call them "
+"after said officer."
 msgstr ""
 
 #. [attack]: type=pierce
-#: Era_of_Four_Moons/units/Freemen/c3_Zunbooruch.cfg:36
+#: Era_of_Four_Moons/units/Freemen/c3_Zamburak.cfg:36
 #: Era_of_Four_Moons/units/Imperialists/d1_Standard.cfg:38
 #: Era_of_Four_Moons/units/Imperialists/d2_Centurion.cfg:48
 #: Era_of_Four_Moons/units/Imperialists/d3_Primus.cfg:48
