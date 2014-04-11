@@ -68,3 +68,19 @@ Champions of Four Moons Era added (AoH alike)
 0.2.9
 
 Hex rewritten to be less buggy.
+
+0.5.1:
+
+new freeman art
+Sandwalker melee -> 6-2
+Piper ranged -> 3-8
+Specialized Immortal and Dervish more towards melee
+Sapper cost ->9
+pelite ->33 hp
+pelite ranged attack back to 4-3
+Jaguar rider ->35 hp
+hurler (darklander) ->32 hp
+white warrior cost ->15
+stormguard cost ->18
+highlander runner cost->15
+loyalist hp->33
