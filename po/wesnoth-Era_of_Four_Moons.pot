@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Era_of_Four_Moons-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-11 15:04+0200\n"
+"POT-Creation-Date: 2014-04-14 13:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,21 +205,24 @@ msgstr ""
 msgid "On offense units with trample who kills his opponent will move into the hex his opponent was in."
 msgstr ""
 
+#. [chance_to_hit]: id=weapon_special_sapper_faceplate
 #. [unit_type]: id=EFM_Sapper, race=EFMimperialists
-#: ./Era_of_Four_Moons/macros/abilities.cfg:241 ./Era_of_Four_Moons/macros/abilities.cfg:242 ./Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
+#: ./Era_of_Four_Moons/macros/abilities.cfg:245 ./Era_of_Four_Moons/macros/abilities.cfg:246 ./Era_of_Four_Moons/units/Imperialists/e1_Sapper.cfg:5
 msgid "Sapper"
 msgstr ""
 
-#: ./Era_of_Four_Moons/macros/abilities.cfg:244 ./Era_of_Four_Moons/macros/abilities.cfg:245
+#. [chance_to_hit]: id=weapon_special_sapper_faceplate
+#: ./Era_of_Four_Moons/macros/abilities.cfg:248 ./Era_of_Four_Moons/macros/abilities.cfg:249
 msgid "This attack has 1 strike per 10% defense it's target has it also has a 70% chance to hit. The sapper dies when it uses this attack. Sapper damage cannot be boosted by leadership."
 msgstr ""
 
 #. [dummy]: id=ability_shifter
-#: ./Era_of_Four_Moons/macros/abilities.cfg:340 ./Era_of_Four_Moons/macros/abilities.cfg:341 ./Era_of_Four_Moons/macros/shifter.cfg:6 ./Era_of_Four_Moons/macros/shifter.cfg:7
+#: ./Era_of_Four_Moons/macros/abilities.cfg:344 ./Era_of_Four_Moons/macros/abilities.cfg:345 ./Era_of_Four_Moons/macros/shifter.cfg:6 ./Era_of_Four_Moons/macros/shifter.cfg:7
 msgid "shifter"
 msgstr ""
 
-#: ./Era_of_Four_Moons/macros/abilities.cfg:342
+#. [dummy]: id=ability_shifter
+#: ./Era_of_Four_Moons/macros/abilities.cfg:346
 msgid ""
 "This unit changes form based on what terrain he is standing on.\n"
 "Villages/Castles: Human\n"
